@@ -1,22 +1,18 @@
-.gradient-background-wrapper {
-    min-height: 1vw;
+.title {
+    min-width: 20vw;
+    min-height: 10vh;
     position: relative;
+    color: rgba(255, 255, 255, 0.623);
     display: flex;
-    align-items: center;
-    margin: 5%;
+    justify-content: center;
 
-    h1, h2, h3, div {
-        z-index: 2 !important;
-        color: white;
-        position: relative;
+    span {
+        position: absolute;
+        bottom: 10%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        width: 95%;
     }
-
-    h1 {
-        font-size: 50px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
 }
