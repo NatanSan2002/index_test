@@ -11,12 +11,7 @@ export default function Section(props) {
         background: props.background,
       }}
     >
-      {props.img ? (
-        <Title
-          text="Lorem Ipsum Dolor Sit Amet, consectetur adipiscing elit. Arcu posuere fermentum netus quam. Lorem Ipsum."
-          img={props.img}
-        />
-      ) : null}
+      {props.img ? <Title text={props.text} img={props.img} /> : null}
       {props.children}
     </div>
   );

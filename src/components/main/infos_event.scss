@@ -1,0 +1,186 @@
+.comosera {
+    min-width: 60%;
+    min-height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    img {
+        align-self: baseline;
+        margin-left: 5%;
+    }
+    
+
+    .qualificacoes {
+        min-width: 57vw;
+        min-height: 15vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        position: relative;
+        flex-wrap: wrap;
+        
+
+
+        padding-bottom: 5%;
+
+
+        &--card {
+            width: 253px;
+            min-height: 368px;
+            background: purple;
+            border-radius: 25px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 19px;
+            
+
+            .top {
+                font-family: Poppins;
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 36px;
+                letter-spacing: 0em;
+                text-align: left;
+                align-self: flex-start;
+                margin-left: 5%;
+            }
+
+            .mid {
+                font-family: Poppins;
+                font-size: 53px;
+                font-weight: 700;
+                line-height: 72px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+
+            .bottom {
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 36px;
+                letter-spacing: 0em;
+                text-align: left;
+                align-self: flex-end;
+                margin-right: 6%;
+            }
+
+            span {
+                color: white;
+                font-weight: bold;
+                transform: scale(0.8);
+            }
+
+            svg {
+                width: 30%;
+            }
+        }
+    }
+
+}
+
+.location {
+    min-width: 50vw;
+    min-height: 25vh;
+    background: url(../../../public/location.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 2%;
+
+    span {
+        width: 70%;
+    }
+
+    .date-and-location {
+        min-width: 35vw;
+        min-height: 15vh;
+        margin: 2%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        svg {
+            width: 10%;
+            height: 10%;
+        }
+
+        &--date {
+            min-width: 10vw;
+            min-height: 10vh;
+        }
+
+        &--location {
+            min-width: 10vw;
+            max-width: 15vw;
+            min-height: 10vh;
+        }
+    }
+
+
+}
+
+.time-left {
+    margin: 2%;
+    min-width: 50vw;
+    min-height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url(../../../public//shadow.png);
+    background-size: cover;
+    background-position: center;
+
+    p {
+        margin: 1%;
+        color: white;
+        font-size: 64px;
+    }
+
+    .time-unit {
+        min-width: 9vw;
+        min-height: 17vh;
+        background: green;
+
+        background: rgba(255, 255, 255, 0.05);
+        border: 0.5px solid rgba(255, 255, 255, 0.35);
+        backdrop-filter: blur(2px);
+        border-radius: 22px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+
+        p {
+            font-weight: bold;
+        }
+
+        span {
+            font-size: 13px;
+            color: #A5DEFF;
+        }
+
+    }
+}

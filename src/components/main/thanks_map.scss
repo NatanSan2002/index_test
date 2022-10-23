@@ -1,0 +1,70 @@
+.patrocinadores {
+    min-width: 30vw;
+    min-height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .patrocinador {
+        min-width: 33%;
+        min-height: 2vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.comochegar {
+    min-width: 60vw;
+    min-height: 1vh;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 25px;
+    display: flex;
+
+    .section {
+        background: none !important;
+        display: flex;
+    }
+
+    .wrapper {
+        min-width: 1vw;
+        width: 100%;
+        min-height: 1vh;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        hr {
+            border-color: rgba(255, 255, 255, 0.404);
+        }
+
+        p {
+            color: #AFAFAF;
+            font-size: 20px;
+        }
+
+        span {
+            font-size: 25px;
+        }
+
+        .endereço-hospedagem {
+            min-width: 10vw;
+            max-width: 28vw;
+            min-height: 50vh;
+        }
+
+        .map {
+            width: 20vw;
+            height: 100%;
+            border-radius: 25px;
+            background: url(../../../public/map.png);
+            background-size: cover;
+            background-position: center;
+        }                
+    }
+
+
+}

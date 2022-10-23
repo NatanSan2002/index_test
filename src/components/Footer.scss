@@ -1,0 +1,133 @@
+footer {
+    
+    border-top: 1px white solid;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    ul {
+        margin-left: 8%;
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+
+        svg {
+            width: 70%;
+            height: 100%;
+        }
+    }
+
+    span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.589);
+    }
+}
+
+.footer {
+    width: 100%;
+    min-height: 1vh;
+    background: #191F2E;
+    font-family: "Poppins";
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-top: 1px white solid;
+    
+
+    .bottom-menu {
+        min-width: 100%;
+        min-height: 2vh;
+        display: flex;
+        justify-content: space-evenly;
+
+
+        .menu {
+            min-width: 30vw;
+            min-height: 30vh;
+
+            .logo {
+                max-width: 35%;
+                max-height: 8vw;
+                padding-bottom: 10%;
+                padding-top: 10%;
+            }
+
+            ul {
+                display: flex;
+                list-style: none;
+                padding: 0 !important;
+                margin: 0 !important;
+                font-size: 15px;
+                color: white !important;
+
+                li + li {
+                    margin-left: 10%;
+                }
+            }
+        }
+
+        .newsletter-siga {
+            min-height: 30vh;
+            min-width: 23vw;
+
+            .input-wrapper {
+                width: 100%;
+                min-height: 1vh;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 100%;
+
+                input {
+                    min-height: 5vh;
+                    min-width: 70%;
+                    border: none;
+                    outline: none;
+                    border-radius: 20px;
+                    padding-left: 3%;
+                }
+
+                .button {
+                    background: linear-gradient(273.31deg, #0000EA 0.79%, #501B8E 34.92%, #E40E20 81.28%, #EC6907 95.04%);
+                    min-width: 6vw;
+                    min-height: 5vh;
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .siga {
+                width: 100%;
+                min-height: 2vh;
+                margin-top: 5%;
+
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    list-style-type: none;
+                    padding: 0 !important;
+
+                    svg {
+                        min-width: 3vw;
+                        min-height: 3vh;
+                        fill: rgba(255, 255, 255, 0.411);
+                    }
+                }
+            }
+        }                
+    }
+
+
+
+
+}

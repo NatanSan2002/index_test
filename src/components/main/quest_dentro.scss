@@ -1,0 +1,93 @@
+.perguntas-frequentes {
+    min-width: 100%;
+    min-height: 5vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fiquepordentro {
+    min-width: 65vw;
+    min-height: 50vh;
+    background: linear-gradient(90deg, rgba(0, 0, 234, 0.75) -0.55%, rgba(142, 46, 254, 0.75) 30.93%, rgba(228, 14, 32, 0.75) 66.83%, rgba(236, 105, 7, 0.75) 99.34%), #EEF2FF;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+
+    .master {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 20px;
+        letter-spacing: -2.4px;
+
+        max-width: 23vw;
+
+        h2 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 56px;
+            /* identical to box height, or 117% */
+            letter-spacing: -2.4px;
+            padding-bottom: 3% !important;
+            margin: 0 !important;
+        }
+
+        span {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            /* or 178% */
+            letter-spacing: -0.45px;
+        }
+    }
+
+    .newsletter {
+        min-width: 25vw;
+        min-height: 1vh;
+        font-family: "Poppins";
+        position: relative;
+
+        .input-wrapper {
+            min-width: 4vw;
+            max-width: 23vw;
+            min-height: 8vh;
+            background: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1% 2% 1% 2%;
+            position: relative;
+            border-radius: 16px;
+
+            input {
+                min-height: 100%;
+                padding-left: 5%;
+                position: relative;
+
+                outline: none;
+                border: none;
+            }
+
+            .button {
+                min-width: 15vh;
+                min-height: 6vh;
+                max-height: 6vh;
+                background: #2563EB;
+                border-radius: 15px;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+            }
+        }
+    }
+}
