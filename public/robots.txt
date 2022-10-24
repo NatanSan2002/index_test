@@ -4,6 +4,6 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: url_desse_site/sitemap.xml
+Sitemap: https://index-test-two.vercel.app/sitemap.xml
 
 

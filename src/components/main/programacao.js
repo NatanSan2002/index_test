@@ -25,7 +25,7 @@ return (
                 <div className="programa--main-content">
                   <div className="hora">09:00-18:30</div>
                   <div className="evento-info">
-                    <p>Trend Show</p>
+                    <h1>Trend Show</h1>
                     <br />
                     <span>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
